@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.round-button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    background-color: #5d22dc;
+    border: none;
+    color: white;
+    padding: 1.2em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.85em;
+    border-radius: 100em;
+    font-size-adjust: 2em;
+}
+
+.chat-message {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 11px 30px;
+    border-radius: 25vh;
+    color: white;
+    background-color: #5d22dc;
+    max-width: 60%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    margin: 0.3em 0;
+    border-radius: 100em 100em 100em 20em;
+    text-align: left;
+
+    &-own {
+        margin-left: auto;
+        border-radius: 100em 100em 20em 100em;
+    }
+}
+
+.input {
+    border-color: #C4C4C4;
+    border-radius: 5em;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
